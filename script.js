@@ -8,6 +8,7 @@ startGame();
 
 function startGame() {
     boxes.forEach(box => {
+        pera.innerText = 'startGame';
         box.innerHTML = '';
         box.style.backgroundColor = '';
     });
